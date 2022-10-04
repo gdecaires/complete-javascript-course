@@ -1,9 +1,15 @@
-/*
+let country = 'Barbados';
+let continent = 'The West Indies';
+let population = '260,000'
+
+console.log(country,continent,population)
 ////////////////////////////////////
 // Linking a JavaScript File
-let js = "amazing";
-console.log(40 + 8 + 23 - 10);
-
+/*
+let javascript = 'amazing';
+if (javascript === 'amazing') alert('JS Rocks!');
+javascript === 'amazing';
+/*
 ////////////////////////////////////
 // Values and Variables
 console.log("Jonas");
