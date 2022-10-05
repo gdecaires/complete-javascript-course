@@ -1,8 +1,27 @@
+let x = 10 + 5;
+x += 10;
+console.log(x);
+console.log(10 ** 3);
+/*
+
 let country = 'Barbados';
 let continent = 'The West Indies';
 let population = '260,000'
 
 console.log(country,continent,population)
+
+let isIsland = true;
+let language;
+
+console.log(country,isIsland,population, language);
+language = 'English';
+console.log(country,isIsland,population, language);
+// population = 260000 / 2;
+console.log(country,isIsland,population, language);
+finlandPopulation = 1000000;
+console.log(population > finlandPopulation);
+description = `${country} is in ${continent}, and its ${population} people speak ${language}`;
+console.log(description);
 ////////////////////////////////////
 // Linking a JavaScript File
 /*
@@ -179,6 +198,23 @@ lines`);
 
 
 ////////////////////////////////////
+
+*/
+let age = 14;
+const canVoteAge = 16;
+const yesMessage = `You can vote now because you're ${age}!`;
+const noMessage = `Sorry, you've still got ${(canVoteAge - age)} more years to go before you can vote 😒`;
+
+if(age >= canVoteAge) {
+  console.log(yesMessage)
+} else {
+  console.log(noMessage)
+};
+// console.log("test");
+
+
+/*
+
 // Taking Decisions: if / else Statements
 const age = 15;
 
