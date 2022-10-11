@@ -1,7 +1,7 @@
-let x = 10 + 5;
-x += 10;
-console.log(x);
-console.log(10 ** 3);
+// let x = 10 + 5;
+// x += 10;
+// console.log(x);
+// console.log(10 ** 3);
 /*
 
 let country = 'Barbados';
@@ -200,16 +200,16 @@ lines`);
 ////////////////////////////////////
 
 */
-let age = 14;
-const canVoteAge = 16;
-const yesMessage = `You can vote now because you're ${age}!`;
-const noMessage = `Sorry, you've still got ${(canVoteAge - age)} more years to go before you can vote 😒`;
+// let age = 14;
+// const canVoteAge = 16;
+// const yesMessage = `You can vote now because you're ${age}!`;
+// const noMessage = `Sorry, you've still got ${(canVoteAge - age)} more years to go before you can vote 😒`;
 
-if(age >= canVoteAge) {
-  console.log(yesMessage)
-} else {
-  console.log(noMessage)
-};
+// if(age >= canVoteAge) {
+//   console.log(yesMessage)
+// } else {
+//   console.log(noMessage)
+// };
 // console.log("test");
 
 
@@ -341,6 +341,7 @@ if (favourite === 23) { // 22 === 23 -> FALSE
 if (favourite !== 23) console.log('Why not 23?');
 
 ////////////////////////////////////
+
 // Logical Operators
 const hasDriversLicense = true; // A
 const hasGoodVision = true; // B
@@ -382,8 +383,18 @@ TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
-*/
 
+const dolphinsScore = ((96 + 108 + 89) / 3 );
+const koalasScore = ((96 + 108 + 89) / 3 );
+console.log(dolphinsScore, koalasScore);
+
+if (dolphinsScore === koalasScore) {
+  console.log("It's a draw!");
+} else if (dolphinsScore > koalasScore) {
+  console.log("Dolphins Win!");
+} else {
+  console.log("Koalas Win!");
+}
 /*
 // const scoreDolphins = (96 + 108 + 89) / 3;
 // const scoreKoalas = (88 + 91 + 110) / 3;
