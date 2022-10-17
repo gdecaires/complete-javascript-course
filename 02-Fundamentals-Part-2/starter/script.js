@@ -12,11 +12,32 @@
 
 // myName();
 
-function fruitProcessor(apples, oranges) {
-    console.log(apples, oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-    return juice;
+// function fruitProcessor(apples, oranges) {
+//     const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+//     return juice;
+// }
+
+// const fruitJuice = fruitProcessor('Red', 'Florida');
+// console.log(fruitJuice);
+
+/*
+// Function declaration
+function calcAge1(birthYear) {
+     return 2022 - birthYear;
 }
 
-const fruitJuice = fruitProcessor(5, 4);
-console.log(fruitJuice);
+console.log(calcAge1(1976));
+
+//Function expression
+function calcAge2 (birthYear) {
+    return 2022 - birthYear;
+}
+const age2 = calcAge2(1976);
+console.log(age2);
+
+//Arrow Functions
+const calcAge3 = birthYear => 2022 - birthYear;
+const age3 = calcAge3(1976);
+console.log(age3);
+
+*/
