@@ -75,7 +75,7 @@ HINT: To calculate average of 3 values, add them all together and divide by 3
 HINT: To check if number A is at least double number B, check for A >= 2 * B. Apply this to the team's average scores 😉
 
 GOOD LUCK 😀
-*/
+
 
 function totalScore(score1, score2, score3) {
     return score1 + score2 + score3;
@@ -98,4 +98,25 @@ function checkWinner(avgDolphins,avgKoalas) {
 checkWinner(dolphinsScore,koalasScore);
 
 
+const cropNames = ['corn', 'lettuce', 'sweet peppers'];
+console.log(cropNames[1]);
 
+cropNames[0] = 'tomatoes';
+
+console.log(cropNames[0]);
+
+const years = [1972, 1976, 2007, 2009];
+function calcAge1(birthYear) {
+    return 2022 - birthYear;
+}
+
+const natAge = calcAge1(years[0]);
+console.log(natAge);
+
+const laylaAge = calcAge1(years[years.length - 1]);
+console.log(laylaAge);
+
+const friends = ['Leon', 'Alan', 'Bernie'];
+friends.push('Andre');
+console.log(friends[3]);
+*/
