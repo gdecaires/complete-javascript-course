@@ -150,3 +150,45 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]),calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(tips);
 console.log(totals);
+
+/*
+const mark = {
+  fullName: 'Mark Miller',
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+const john = {
+  fullName: 'John Smith',
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+const gerry = {
+    firstName: 'Gerry',
+    lastName: 'Decaires',
+    birthYear: 1976,
+    job: 'hotelier',
+
+    calcAge: function () {
+        this.age = 2022 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        this.summary = `My name is ${this.firstName} ${this.lastName} and I am ${this.calcAge()} years old. I have been working as a ${this.job} for 20 years.`;
+        return this.summary;
+    }
+};
+
+console.log(gerry.calcAge());
+console.log(gerry.getSummary());
+*/
