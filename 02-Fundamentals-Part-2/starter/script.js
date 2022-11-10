@@ -192,3 +192,7 @@ const gerry = {
 console.log(gerry.calcAge());
 console.log(gerry.getSummary());
 */
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`I like to eat ${rep} vegatables in my salad`);
+}
