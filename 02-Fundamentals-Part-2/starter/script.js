@@ -191,8 +191,53 @@ const gerry = {
 
 console.log(gerry.calcAge());
 console.log(gerry.getSummary());
-*/
+
 
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`I like to eat ${rep} vegatables in my salad`);
+}
+*/
+
+//Looping Arrays, Breaking and Continuing
+const gerryArray = [
+    'Gerry',
+    'Decaires',
+    2022 - 1976,
+    'it guy',
+    ['Natalie, Anya, Layla'],
+    ['Sparkles', 'Doody', 'Ms. Ana', 'Cinimini', 'OllieWollie', 'Cosmo'],
+    true
+];
+
+// const types = [];
+
+// for(let i = 0; i < gerryArray.length ; i++){
+//     //reading array
+//     console.log(gerryArray[i], typeof gerryArray[i]);
+
+//     //filling array
+//     types[i] = typeof gerryArray[i];
+// }
+
+// console.log(types);
+
+const years = [1972, 2007, 2009];
+const ages = [];
+
+for( let i = 0; i < years.length; i++){
+    ages[i] = (2022 - years[i]);
+}
+
+console.log(ages);
+
+//continue and break
+// for(let i = 0; i < gerryArray.length ; i++){
+//     if (typeof gerryArray[i] !== 'string') continue;
+
+//     console.log(gerryArray[i], typeof gerryArray[i]);
+// }
+for(let i = 0; i < gerryArray.length ; i++){
+    if (typeof gerryArray[i] === 'number') break;
+
+    console.log(gerryArray[i], typeof gerryArray[i]);
 }
