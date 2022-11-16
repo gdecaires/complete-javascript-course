@@ -196,7 +196,6 @@ console.log(gerry.getSummary());
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`I like to eat ${rep} vegatables in my salad`);
 }
-*/
 
 //Looping Arrays, Breaking and Continuing
 const gerryArray = [
@@ -241,3 +240,49 @@ for(let i = 0; i < gerryArray.length ; i++){
 
     console.log(gerryArray[i], typeof gerryArray[i]);
 }
+
+
+const gerryArray = [
+    'Gerry',
+    'Decaires',
+    2022 - 1976,
+    'it guy',
+    ['Natalie, Anya, Layla'],
+    ['Sparkles', 'Doody', 'Ms. Ana', 'Cinimini', 'OllieWollie', 'Cosmo'],
+];
+//looping backward
+for(let i = gerryArray.length -1; i>=0; i--) {
+    console.log(gerryArray[i]);
+}
+//loop within loops
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`Starting exercise ${exercise}`);
+
+for (let rep =1; rep <= 10; rep++) {
+    console.log(`Lifting weight repetition ${rep}`);
+    }   
+}
+
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repition ${rep}`);
+}
+
+//While Loop
+let rep = 1
+while (rep <= 10) {
+    console.log(`Lifting weights repition ${rep}`);
+    rep++
+}
+
+
+let dice = Math.trunc(Math.random() * 6) + 1;
+console.log(dice);
+
+while (dice !== 6) {
+    console.log(`You rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice == 6) console.log(`You finally rolled a ${dice}`);
+    }
+
+    */
