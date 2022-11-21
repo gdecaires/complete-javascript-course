@@ -309,19 +309,34 @@ HINT: Call calcTip in the loop and use the push method to add values to the tips
 GOOD LUCK 😀
 */
 
+/*
+const calcTip = function () {
+    return bills >= 50 && bills <= 300 ? bills * 0.15 : bills * 0.2;
+}
 const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips = [];
 const totals = [];
 
-for ( let i = 0; i < bills.length; i++) {
+for (let i = 0; i < bills.length; i++) {
+    const tip = calcTip(bills[i]);
+    tips.push(tips);
+    totals.push(tips + bills[i]);
+  }
+  console.log(bills, tips, totals);
 
-    function calcTip(bill) {
-        if (bill >= 50 && bill <= 300) {
-            return bill * 0.15
-        } else {
-            return bill * 0.20
-        };
-    }
-}
+  */
+  const calcTip = function (bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+  }
+  const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+  const tips = [];
+  const totals = [];
 
+  for (let i = 0; i < bills.length; i++) {
+    const tip = calcTip(bills[i]);
+    tips.push(tip);
+    totals.push(tip + bills[i])
+  }
 
+  console.log(tips);
+  console.log(totals)
